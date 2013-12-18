@@ -1,0 +1,42 @@
+{
+  "name": "orbs",
+  "version": "0.0.0",
+  "description": "This module provides the base orbs implementation.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": {
+    "name": "Tauren Mills",
+    "email": "tauren@orbs.io"
+  },
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "eventemitter2": "~0.4.13"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.x",
+    "chai": "~1.8.x",
+    "sinon": "~1.7.x",
+    "sinon-chai": "~2.4.x",
+    "express": "~3.4.x",
+    "gaze": "~0.4.x",
+    "orbs-grunt-config": "Orbs/orbs-grunt-config",
+    "grunt-contrib-jshint": "~0.7.x",
+    "grunt-contrib-connect": "~0.5.x",
+    "grunt-express": "~1.2.x",
+    "grunt-contrib-clean": "~0.5.x",
+    "grunt-contrib-watch": "~0.5.x",
+    "grunt-contrib-internal": "~0.4.x",
+    "grunt-mocha-test": "~0.8.1",
+    "grunt-open": "~0.2.x",
+    "lodash-cli": "~2.4.x",
+    "grunt-todos": "~0.2.x",
+    "blanket": "~1.1.5",
+    "grunt-mkdir": "~0.1.1"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
